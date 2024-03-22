@@ -1,0 +1,294 @@
+*{
+margin :0;
+padding:0;
+font-family:sans-serif;
+width: 100%
+height: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+section{
+	background-color: #002244;
+}
+
+h1{
+text-align: center;
+font-size: 60px;
+margin-top: 100px;
+margin-bottom: 40px;
+margin-right: 600px;
+color: black;
+}
+#bg{
+	width: 100%;
+	height: 270px;
+}
+pre
+{
+text-align: center;
+font-size: 50px;
+margin-right: 43px;
+margin-top: 85px;
+font-weight: 500;
+margin-bottom: 40px;
+padding: -10px;
+color: white;
+font-family: arial;
+}
+#a a{
+	float: right;
+	color: black;
+	border:2px solid black;
+	padding:25px;
+	margin-top:30px;
+	font-weight: 600;
+	margin-right: 30px;
+    text-decoration-line: none;
+    border-radius: 30px;
+    font-family: arial;
+}
+#a a:hover
+{
+	background-color: green;
+}
+#ii1 {
+	height: 80px;
+	width: 80px;
+	float: right;
+	margin-top: -79.9px;
+	margin-right: 10px;
+}
+#ii2 {
+	height: 80px;
+	width: 80px;
+	float: right;
+	margin-top:-79.9px;
+	margin-right: 5px;
+}
+#ii3 {
+	height: 80px;
+	width: 80px;
+	float: right;
+	margin-top:-79.9px;
+	margin-right: 5px;
+}
+#ii4{
+	height: 58px;
+	width: 58px;
+	float: right;
+	margin-top: -66px;
+	margin-right: 15px;
+}
+.ia >img,a :hover{
+	opacity: 0.8;
+}
+header{
+	background-color: #4682b4;
+	padding: 0px;
+	width: 1226px;
+	height: 140px;
+	border: 5px solid #4682b4;	
+	margin-left: 00px;
+	margin-top: 0px;
+}
+
+#im{
+	width: 180px;
+	height: 120px;
+	margin-top: 8px;
+	margin-left: 5px;
+	float: left;
+	border-radius: 20px;
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}	 
+
+#bo{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(25,12,41);
+}
+.slider{
+	position: relative;
+	width: 65%;
+	overflow: hidden;
+}
+.images{
+	display: flex;
+	width: 100%;
+}
+.images img{
+	height: 450px;
+	width: 100%;
+	transition: all 0.15s ease;
+	border-radius: 30px;
+	margin-bottom: 15px;
+}
+.images input{
+	display: none;
+}
+.dots{
+	display: flex;
+	justify-content: center;
+	margin: 5px;
+}
+.dots label{
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	border :3px solid white;
+	cursor: pointer;
+	transition: all 0.15s ease;
+	margin: 5px;
+}
+.dots label:hover{
+	background:white;
+}
+
+#flight1:checked ~.m1{
+	margin-left: 0;
+}
+#flight2:checked ~.m2{
+	margin-left: -100%;
+}
+#flight3:checked ~.m3{
+	margin-left: -200%;
+}
+#flight4:checked ~.m4{
+	margin-left: -300%;
+}
+#flight5:checked ~.m5{
+	margin-left: -400%;
+}
+
+footer{
+	background-color: #002244;
+}
+
+#foo>h1
+{
+	padding: 0px;
+	margin-top:10px;
+	width: 1225px;
+	height: 140px;
+	border: 0px solid #0a2351;	
+}
+#sub{
+	color: white;
+	font-size: 40px;
+	padding: 40px;
+}
+input[type="text"],[type="email"]
+{
+	border-radius: 20px;
+	width: 250px;
+	height: 30px;
+	border: 2px solid black;
+	text-align: center;
+}
+input[type="textarea"]
+{
+	border-radius: 10px;
+	width: 450px;
+	height: 80px;
+	border: 2px solid black;
+	text-align: center;
+}
+input[type="submit"]{
+	border-radius: 20px;
+	width: 120px;
+	height: 30px;
+	border: 2px solid black;
+	background-color: #4682b4;
+	text-align: center;
+}
+input[type="submit"]:hover
+{
+	background-color: green;
+	cursor: pointer;
+	text-align: center;
+	width: 140px;
+	border:1px solid white;
+	height: 35px;
+}
+}
+input[type="radio"]
+{
+	border:2px solid black;
+	padding: 10px;
+	width: 17px;
+	height: 17px;
+	margin-right: 10px;
+}
+#fm{
+	padding: 40px;
+	padding-top: 15px;
+	background-color: grey;
+	border: 2px solid black;
+	margin-right: 800px;
+	margin-left: 50px;
+	border-radius: 20px;
+	padding-bottom: 15px;
+}
+
+.iia >img,a :hover{
+	opacity: 0.8;
+}
+.iia {
+	float: right;
+}
+
+.iia > p
+{
+	font-size: 35px;
+	margin-top: -250px;
+    background-color: red;
+    border-radius: 13px;
+    color: white;
+}
+h3{
+	color: black;
+	padding: 10px;
+	margin-top: 100px;
+	font-size: 24px;
+	background-color: grey;
+	font-family: calibri;
+}
+
+#he 
+{
+	color: white;
+	padding: 10px;
+	margin-top: 10px;
+	font-size: 40px;
+	background-color: rgb(25,12,41);
+	font-family: calibri;
+}
+#hee
+{
+	color:white;
+	padding: 10px;
+	margin-top: 0px;
+	font-size: 33px;
+	background-color: rgb(25,12,41);
+	font-family: calibri;
+}
+#heee
+{
+	background-color: rgb(25,12,41);
+	margin-bottom: 10;
+	padding: 20px;
+}
+@media(max-width: 700px)
+{
+	*{
+		background-size: cover;
+	}
+}

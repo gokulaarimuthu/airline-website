@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"  name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style type="text/css">
+        input{
+            border-radius: 20px;
+        }
+        .form-box{
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body background="booking.jpg" class="bg"><div>
+    <center><h1 class="big">TICKET BOOKING FORM</h1></center>
+    <form action="booking-php.php" class="form-box" method="POST">
+        <input type ="text"  class="input-filed" name="username" class="input-filed" placeholder ="Customer name" title="Customer name should be greater than 5 letters and less than 10" pattern="[A-Za-z]{5,20}" required > 
+    
+        <input type ="number"  class="input-filed" name="passengers" class="input-filed" placeholder ="No of passengers" required> 
+         <input class="input-filed" type="email" name="email" placeholder="Email" required>
+
+        <select name="relationship" class="input-filed" required>
+             <option selected hidden value="">(select  Your relationship)</option>
+             <option value="Myself">Myself</option>
+             <option value="Father">Father</option>
+             <option value="Mother">Mother</option>
+             <option value="Brother">Brother</option>
+             <option value="Sister">Sister</option>
+             <option value="Spouse">Spouse</option>
+             <option value="Husband">Husband</option>
+             <option value="Son">Son</option>
+             <option value="Daughter">Daughter</option>
+            </select>
+
+         <select name="sourcecountry"  class="input-filed" required>
+             <option selected hidden value="">(select Source Country)</option>
+             <option value="India">India</option>
+             <option value="Australia">Australia</option>
+             <option value="China">China</option>
+             <option value="Russia">Russia</option>
+             <option value="India">Mangolia</option>
+             <option value="Australia">Africa</option>
+             <option value="China">Mumbai</option>
+             <option value="Russia">Chennai</option>
+            </select>
+         <select name="desticountry"  class="input-filed" required>
+             <option selected hidden value="">(select  Destination country)</option>
+             <option value="India">India</option>
+             <option value="Australia">Australia</option>
+             <option value="China">China</option>
+             <option value="Russia">Russia</option>
+             <option value="India">Mangolia</option>
+             <option value="Australia">Africa</option>
+             <option value="China">Mumbai</option>
+             <option value="Russia">Chennai</option>
+            </select>
+       <center> <label for="departure">Departure :</label><input type="date"  name="fromd"><br>
+       <label for="departure">Arrival :   </label><input type="date" name="tod"></center>
+       <center><input type="submit" name="submit" value="Order Tickets" class="menu"><br></center>
+</form>
+</div>
+</body>
+</html>

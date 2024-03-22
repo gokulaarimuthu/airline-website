@@ -1,0 +1,85 @@
+<html>
+<head><center><h1 class="big">REGISTER</h1></center>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		input[type="radio"]
+		{
+			align-content: left;
+			padding: 10px;
+			margin-left:-130px;
+			margin-right: -100;
+			
+		}
+		#co
+		{
+			border-radius: 30px;
+			height: 30px;
+			width: 70px;
+			margin-left: -50px;
+		} 
+		#gen{
+			margin-left: -113px;
+		}
+		.form-box{
+			opacity: 0.7;
+		}
+	</style>
+</head>
+<body background="register.jpg">
+<center>
+	<form class="form-box" action ="register-php.php" method="POST">
+		<input type ="text"  name="username" class="input-filed" placeholder ="Name" pattern="[A-Za-z0-9]{5,20}" title="Username should be greater than 5 letters and less than 10 with numbers" required> 
+
+		 <input class="input-filed" type="email" name="email" placeholder="Email" required>
+
+		<input type ="password"  name="password" class="input-filed" placeholder="password" pattern="[A-Za-z0-9]{4,8}" title=" must be greater than 4 letters and less than 8 with numbers " required > 
+		<br><b>Gender :</b></br>
+
+		<input type="radio" name="gender" value="m" required>Male<br>
+<input id="gen" type="radio" name="gender" value="f" required>Female<br>
+        <input type="radio" name="gender" value="o" required>Other<br>
+
+          <select id="co" name="phoneCode" required>
+
+<option  selected hidden value="">Select Code</option>
+
+<option value="977">977</option>
+
+<option value="978">978</option>
+
+<option value="979">979</option>
+
+<option value="973">973</option>
+
+<option value="972">972</option>
+
+<option value="974">974</option>
+
+</select> 
+           
+  <input class="input-filed" type="number" name="phone" placeholder="phone" required>
+
+ <select class="input-filed"  name="country" required>
+
+<option selected hidden value="">Select country</option>
+
+<option value="India">India</option>
+
+<option value="America">America</option>
+
+<option value="Australia">Australia</option>
+
+<option value="England">England</option>
+
+<option value="France">France</option>
+
+<option value="Germany">Germany</option>
+
+</select> 
+		<center><input type="submit"   name="submit" value="REGISTER" class="submit-btn"><br></center>
+    </form>
+</center>
+</body>
+</body>
+</html>
